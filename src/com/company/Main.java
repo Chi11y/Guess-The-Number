@@ -8,7 +8,7 @@ public class Main {
     // write your code here
     Scanner scanner = new Scanner(System.in);
     int guess;
-    int number = (int) (Math.random() * 10) + 1;
+    int number = (int) (Math.random() * 100) + 1;
     System.out.println("Please guess a number between 1 and 10");
 
     do {
