@@ -11,7 +11,7 @@ public class Main {
     int number = (int) (Math.random() * 100) + 1;
     int guessLimit = 5;
     System.out.println("Please guess a number between 1 and 100");
-    System.out.println("You have 5 attempts");
+    System.out.println("You only have 5 attempts");
 
     int currentGuess = 1;
     do {
